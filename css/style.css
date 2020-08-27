@@ -149,3 +149,19 @@ body {
         font-size: 18px;
     }
 }
+
+.horizontal-list {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.item {
+  /* 横スクロール用 */
+  display: inline-block;
+  width: 90%;
+}
+
+horizontal-list{
+  display: flex;
+}
